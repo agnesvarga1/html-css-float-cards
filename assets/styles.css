@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  width: 85%;
+  width: 88%;
   margin: 0 auto;
   background-color: white;
   text-align: center;
@@ -40,17 +40,21 @@ section {
   color: white;
   border: 1px solid red;
   text-align: left;
-
-  line-height: 120%;
-
   margin: 25px;
+  height: 100px;
 }
 img {
   float: left;
-  width: 25%;
+  width: 35%;
   margin-right: 20px;
 }
-p.email {
+
+.about {
+  padding-top: 5px;
+  float: right;
+  line-height: 1.2;
+}
+.email {
   color: #00bdf3;
 }
 
