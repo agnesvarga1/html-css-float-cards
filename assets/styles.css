@@ -29,7 +29,6 @@ h1 {
 
 section {
   margin-top: 50px;
-  border: 3px solid greenyellow;
 }
 .col {
   width: calc(100% / 3);
@@ -38,22 +37,24 @@ section {
 .name-card {
   background-color: #0f0e17;
   color: white;
-  border: 1px solid red;
   text-align: left;
   margin: 25px;
   height: 100px;
+  box-shadow: 0 3px 10px rgb(44, 44, 44);
 }
 img {
   float: left;
+  height: 100%;
   width: 35%;
   margin-right: 20px;
 }
 
 .about {
-  padding-top: 5px;
-  float: right;
-  line-height: 1.2;
+  display: inline-block;
+  padding-top: 10px;
+  line-height: 1.8;
 }
+
 .email {
   color: #00bdf3;
 }
