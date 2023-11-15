@@ -26,3 +26,36 @@ h1 {
   color: magenta;
   font-weight: bold;
 }
+
+section {
+  margin-top: 50px;
+  border: 3px solid greenyellow;
+}
+.col {
+  width: calc(100% / 3);
+  float: left;
+}
+.name-card {
+  background-color: #0f0e17;
+  color: white;
+  border: 1px solid red;
+  text-align: left;
+
+  line-height: 120%;
+
+  margin: 25px;
+}
+img {
+  float: left;
+  width: 25%;
+  margin-right: 20px;
+}
+p.email {
+  color: #00bdf3;
+}
+
+.clearfix ::after {
+  content: "";
+  display: table;
+  clear: both;
+}
